@@ -1,0 +1,18 @@
+[
+    {
+        "nombre": "Arthur",
+        "apellido": "Harris",
+        "cedula": "00110",
+        "edad": "99",
+        "motivo": "Dolor",
+        "fecha_hora": "2025-06-1404:59:11"
+    },
+    {
+        "nombre": "Sapphire",
+        "apellido": "Leywin",
+        "cedula": "01010",
+        "edad": "88",
+        "motivo": "Limpieza",
+        "fecha_hora": "2025-06-1404:59:22"
+    }
+]
