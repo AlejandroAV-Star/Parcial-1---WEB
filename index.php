@@ -64,7 +64,7 @@
         </div>
         <h2> Listado de Visitas Registradas</h2>  
         <table>
-            <>
+            <tr>
                 <th>Nombre</th>
                 <th>Apellido</th>
                 <th>Cédula</th>
