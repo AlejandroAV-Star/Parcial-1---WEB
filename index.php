@@ -22,7 +22,6 @@
 </php>
 <!DOCTYPE html>
 <html lang="es">
-    <head>
     <head> 
         <meta charset=" UTF-8">
         <title> Consultorio Dental - Visitas</title>
@@ -37,7 +36,6 @@
             button { padding: 10px 20px;}
         </style>
     </head>
-    <body>
     <body>  
         <h1> Registro de Visitas al Consultorio Dental</h1>
         <div class="form-container">
@@ -66,16 +64,13 @@
         </div>
         <h2> Listado de Visitas Registradas</h2>  
         <table>
-            <tr>
+            <>
                 <th>Nombre</th>
                 <th>Apellido</th>
                 <th>Cédula</th>
                 <th>Edad</th>
                 <th>Motivo</th>
                 <th>Fecha y Hora</th>
-            </tr>
-
-            <?php foreach (array_reverse($visitas) as $visita): ?>
         
             </tr> 
                 <?php foreach (array_reverse($visitas) as $visita): ?>
@@ -90,4 +85,4 @@
             <?php endforeach;?>
         </table>   
     </body>
-</html></html>
+</html>
