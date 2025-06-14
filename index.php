@@ -16,11 +16,14 @@
         header("Location:index.php");
         exit();
     }
+    // Manuel Abreu 2024-0221
+    // Manuel Abreu 2024-0221
 ?>
 </php>
 <!DOCTYPE html>
 <html lang="es">
     <head>
+    <head> 
         <meta charset=" UTF-8">
         <title> Consultorio Dental - Visitas</title>
         <style>
@@ -35,6 +38,7 @@
         </style>
     </head>
     <body>
+    <body>  
         <h1> Registro de Visitas al Consultorio Dental</h1>
         <div class="form-container">
             <h2> Registrar Nueva Visita</h2>
@@ -72,6 +76,9 @@
             </tr>
 
             <?php foreach (array_reverse($visitas) as $visita): ?>
+        
+            </tr> 
+                <?php foreach (array_reverse($visitas) as $visita): ?>
                 <tr>
                     <td><?=htmlspecialchars($visita["nombre"])?></td>
                     <td><?=htmlspecialchars($visita["apellido"])?></td>
@@ -83,4 +90,4 @@
             <?php endforeach;?>
         </table>   
     </body>
-</html>
+</html></html>
